@@ -20,7 +20,6 @@ function CardTable() {
   };
   return (
     <div className="PlayingCardList">
-      {console.log(cards)}
       <h3>Pick a card, any card!</h3>
       <div>
         <button onClick={addCard}>Add a playing card!</button>
